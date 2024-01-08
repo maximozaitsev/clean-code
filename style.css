@@ -13,7 +13,7 @@ body {
 .image-container img {
   width: 100%;
 }
-.image-container .more-info {
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -121,12 +121,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.delete img {
+.delete-btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-btn-img:hover {
   transform: rotateZ(0);
 }
 
